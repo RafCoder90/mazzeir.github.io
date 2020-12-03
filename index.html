@@ -1,1 +1,26 @@
-"Hello World"
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                ">
+
+    <ui:define name="title">Login</ui:define>
+
+    <ui:define name="body">
+        <div id="content">
+            <h2>Pagina Iniziale</h2>
+            <p>Inserisci nome utente e password per accedere al sistema:</p>
+            <f:view>
+                <h:form id="formLogin">
+                   
+                </h:form>
+                <p><h:outputText value="#{controlloLogin.messaggio}" /></p>
+
+                <p>NOTA: questi collegamenti servono ad entrare senza fare login. Nella versione in produzione devono essere eliminati</p>
+                <h:form id="formLinkVeloci">
+                    
+                </h:form>
+            </f:view>
+        </div>
+    </ui:define>
+</ui:composition>
