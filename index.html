@@ -1,472 +1,629 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Sonic Responsive Template</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Power - Bootstrap HTML5 Template</title>
+    	<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- 
-
-Sonic Template 
-
-http://www.templatemo.com/tm-394-sonic 
-
+Power Template 
+http://www.templatemo.com/tm-508-power
 -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1">
-    
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo_misc.css">
-	<link rel="stylesheet" href="css/templatemo_style.css">
-</head>
-<body>
-	
-	<!-- This one in here is responsive menu for tablet and mobiles -->
-    <div class="responsive-navigation visible-sm visible-xs">
-        <a href="#" class="menu-toggle-btn">
-            <i class="fa fa-bars fa-2x"></i>
-        </a>
-        <div class="navigation responsive-menu">
-            <ul>
-                <li class="home"><a href="#templatemo">Home</a></li>
-	            <li class="about"><a href="#about">About Us</a></li>
-	            <li class="services"><a href="#services">Services</a></li>
-	            <li class="portfolio"><a href="#portfolio">Portfolio</a></li>
-	            <li class="contact"><a href="#contact">Contact</a></li>
-	            <li><a href="https://www.google.com" class="external">Google</a></li>
-            </ul> <!-- /.main_menu -->
-        </div> <!-- /.responsive_menu -->
-    </div> <!-- /responsive_navigation -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/templatemo_misc.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
 
-	<div id="main-sidebar" class="hidden-xs hidden-sm">
-		<div class="logo">
-			<a href="#"><h1>Sonic</h1></a>
-			<span>Creative Portfolio Template</span>
-		</div> <!-- /.logo -->
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
 
-		<div class="navigation">
-	        <ul class="main-menu">
-	            <li class="home"><a href="#templatemo">Home</a></li>
-	            <li class="about"><a href="#about">About Us</a></li>
-	            <li class="services"><a href="#services">Services</a></li>
-	            <li class="portfolio"><a href="#portfolio">Portfolio</a></li>
-	            <li class="contact"><a href="#contact">Contact</a></li>
-	            <li><a href="https://www.google.com" class="external">Google</a></li>
-	        </ul>
-		</div> <!-- /.navigation -->
 
-	</div> <!-- /#main-sidebar -->
+        <div class="site-main" id="sTop">
+            <div class="site-header">
+                <div class="main-header">
+                    <div class="container">
+                        <div id="menu-wrapper">
+                            <div class="row">
+                                <nav class="navbar navbar-inverse" role="navigation">
+                                    <div class="navbar-header">
+                                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a href="#top" class="navbar-brand">Power</a>
+                                        <div id="main-nav" class="collapse navbar-collapse">
+                                            <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
+                                                <li class="active"><a href="#">Home</a></li>
+                                                <li><a href="#about">About Us</a></li>
+                                                <li><a href="#portfolio">Portfolio</a></li>
+                                                <li><a href="#blog">Blog Entries</a></li>
+                                                <li><a href="#" class="external" target="_parent" rel="nofollow">External</a></li> 
+                                                <li><a href="#contact-us">Contact</a></li>                                 
+                                            </ul>                                    
+                                        </div> <!-- /.main-menu -->
+                                    </div>
+                                </nav>
+                            </div> <!-- /.row -->
+                        </div> <!-- /#menu-wrapper -->                        
+                    </div> <!-- /.container -->
+                </div> <!-- /.main-header -->
+            </div> <!-- /.site-header -->
+        </div> <!-- /.site-main -->
 
-	<div id="main-content">
 
-		<div id="templatemo">
-			<div class="main-slider">
-				<div class="flexslider">
-					<ul class="slides">
-                    
-						<li>
-							<div class="slider-caption">
-								<h2>Responsive Layout</h2>
-								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-								<a href="#" class="largeButton homeBgColor">Read More</a>
-							</div>
-							<img src="images/slide1.jpg" alt="Slide 1">
-						</li>
-                        
-						<li>
-							<div class="slider-caption">
-								<h2>Portfolio Website</h2>
-								<p>Fusce convallis enim vitae sagittis mollis. Sed bibendum ultricies dignissim.</p>
-								<a href="#" class="largeButton homeBgColor">Details</a>
-							</div>
-							<img src="images/slide2.jpg" alt="Slide 2">
-						</li>
-                        
-                        <li>
-							<div class="slider-caption">
-								<h2>Free Templates</h2>
-								<p>All templates are free to download and use for your personal or commercial websites.</p>
-								<a href="#" class="largeButton homeBgColor">Downloads</a>
-							</div>
-							<img src="images/slide3.jpg" alt="Slide 3">
-						</li>
-                        
-					</ul>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="welcome-text">
-							<h2>Welcome to Sonic Template</h2>
-							<p>Sonic is free HTML5 template provided by <a href="http://www.facebook.com/templatemo" target="_parent">templatemo</a> website for everyone. Credit goes to <a rel="nofollow" href="http://flexslider.woothemes.com">FlexSlider</a>. Maecenas adipiscing pellentesque elit eu volutpat. Integer vitae <a href="#">pulvinar magna</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor mi metus, nec sagittis purus ultrices id.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- /#sTop -->
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="banner-content">
+                            <h6>Designed With Love</h6>
+                            <h2>The Power Theme</h2>
+                            <ul class="buttons">
+                                <li>
+                                    <div class="primary-button">
+                                        <a href="#about">Download Now</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="secondary-button">
+                                        <a href="#portfolio">More Details</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<div class="container-fluid">
 
-			<div id="about" class="section-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>About Us</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="member-item">
-							<div class="member-thumb">
-								<img src="images/team1.jpg" alt="girl 1">
-								<div class="overlay">
-									<ul class="social-member">
-										<li><a href="#" class="fa fa-facebook"></a></li>
-										<li><a href="#" class="fa fa-twitter"></a></li>
-										<li><a href="#" class="fa fa-linkedin"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="member-content">
-								<h4>Tanna Dona</h4>
-								<p>Marketing Director</p>
-							</div>
-						</div>
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="member-item">
-							<div class="member-thumb">
-								<img src="images/team2.jpg" alt="girl 2">
-								<div class="overlay">
-									<ul class="social-member">
-										<li><a href="#" class="fa fa-facebook"></a></li>
-										<li><a href="#" class="fa fa-twitter"></a></li>
-										<li><a href="#" class="fa fa-linkedin"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="member-content">
-								<h4>Candy Ball</h4>
-								<p>Creative Executive</p>
-							</div>
-						</div>
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="member-item">
-							<div class="member-thumb">
-								<img src="images/team3.jpg" alt="girl 3">
-								<div class="overlay">
-									<ul class="social-member">
-										<li><a href="#" class="fa fa-facebook"></a></li>
-										<li><a href="#" class="fa fa-twitter"></a></li>
-										<li><a href="#" class="fa fa-linkedin"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="member-content">
-								<h4>Tawana Cherry</h4>
-								<p>Company President</p>
-							</div>
-						</div>
-					</div> <!-- /.col-md-4 -->
-				</div> <!-- /.row -->
-				<div class="row our-story">
-					<div class="col-md-8">
-						<h3>Furious Teamwork</h3>
-					  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, exercitationem, laboriosam, modi non quisquam voluptas accusamus numquam ipsum reiciendis saepe veniam cupiditate explicabo autem. Quisque in metus tristique, gravida dolor ut, varius neque. Maecenas ac risus aliquam, facilisis massa id, vulputate elit.<br><br>
-						Curabitur pretium arcu dictum, faucibus diam quis, commodo turpis. Proin viverra, risus eget egestas sodales, felis ante scelerisque ligula, eget condimentum diam ligula eu tellus. Repudiandae tempore dolore deserunt nemo voluptatum consectetur aspernatur expedita aliquid iste illo enim molestias vel animi quod.
-					</div>
-					<div class="col-md-4">
-						<div class="story-image">
-							<img src="images/responsive-design.jpg" alt="">
-						</div>
-					</div>
-				</div> <!-- /.row -->
-			</div> <!-- /#about -->
-			
-			<div id="services" class="section-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>Services</h2>
-						</div> <!-- /.section-title -->
-					</div> <!-- /.col-md-12 -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-4">
-						<div class="service-item clearfix">
-							<div class="service-icon">
-								<i class="fa fa-bolt fa-2x"></i>
-							</div>
-							<div class="service-content">
-								<h3>The Best<br>Web Graphics</h3>
-							</div>
-						</div> <!-- /.service-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="service-item">
-							<div class="service-icon">
-								<i class="fa fa-laptop fa-2x"></i>
-							</div>
-							<div class="service-content">
-								<h3>Responsive<br>Web Design</h3>
-							</div>
-						</div> <!-- /.service-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="service-item">
-							<div class="service-icon">
-								<i class="fa fa-pencil fa-2x"></i>
-							</div>
-							<div class="service-content">
-								<h3>Unlimited<br>Layout Options</h3>
-							</div>
-						</div> <!-- /.service-item -->
-					</div> <!-- /.col-md-4 -->
-				</div> <!-- /.row -->
-				<div class="row our-skills">
-					<div class="col-md-8">
-						<h3>Our Skills</h3>
-						Duis augue eros, mollis ac velit at, rutrum tincidunt ipsum. Morbi semper dui id fringilla semper. Vivamus ac ante cursus, feugiat ipsum et, aliquet justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, minima soluta numquam perferendis illum alias omnis commodi error veritatis a esse nostrum asperiores recusandae.
-					</div>
-					<div class="col-md-4">
-						<ul class="progess-bars">
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">WEB DESIGN 90%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">HTML5 CSS3 80%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">WordPress 75%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">SEO 65%</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div> <!-- /#services -->
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Web Design &amp; Development Crew!</h4>
+                        <h6>WE CREATE HTML CSS TEMPLATE</h6>
+                        <div class="border-button"><a href="#portfolio">Discover More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div id="portfolio" class="section-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>Portfolio</h2>
-						</div> <!-- /.section-title -->
-					</div> <!-- /.col-md-12 -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/1.jpg" alt="Fantasy">
-								<div class="overlay-p">
-									<a href="images/portfolio/1.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Fantasy</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/2.jpg" alt="Botany">
-								<div class="overlay-p">
-									<a href="images/portfolio/2.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Botany</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/3.jpg" alt="Universe">
-								<div class="overlay-p">
-									<a href="images/portfolio/3.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Universe</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/4.jpg" alt="Channel">
-								<div class="overlay-p">
-									<a href="images/portfolio/4.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Channel</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/5.jpg" alt="Dragonfly">
-								<div class="overlay-p">
-									<a href="images/portfolio/5.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Dragonfly</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="portfolio-item">
-							<div class="portfolio-thumb">
-								<img src="images/portfolio/6.jpg" alt="Titanium">
-								<div class="overlay-p">
-									<a href="images/portfolio/6.jpg" data-gal="prettyPhoto">
-										<i class="fa fa-arrows-alt fa-2x"></i>
-									</a>
-								</div>
-							</div> <!-- /.portfolio-thumb -->
-							<h3 class="portfolio-title"><a href="#">Titanium</a></h3>
-						</div> <!-- /.portfolio-item -->
-					</div> <!-- /.col-md-4 -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="load-more">
-							<a href="#portfolio" class="largeButton portfolioBgColor">Load More</a>
-						</div>
-					</div>
-				</div>
-			</div> <!-- /#portfolio -->
 
-			<div id="contact" class="section-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>Contact Us</h2>
-						</div> <!-- /.section-title -->
-					</div> <!-- /.col-md-12 -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="map-holder">
-							<div class="google-map-canvas" id="map-canvas">
-                    		</div>
-						</div> <!-- /.map-holder -->
-					</div> <!-- /.col-md-12 -->
-				</div> <!-- /.row -->
-				<div class="row contact-form">
-					<div class="col-md-4">
-						<label for="name-id" class="required">Name:</label>
-						<input name="name-id" type="text" id="name-id" maxlength="40">
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<label for="email-id" class="required">Email:</label>
-						<input name="email-id" type="text" id="email-id" maxlength="40">
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<label for="subject-id">Subject:</label>
-						<input name="subject-id" type="text" id="subject-id" maxlength="60">
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-12">
-						<label for="message-id" class="required">Message:</label>
-						<textarea name="message-id" id="message-id" rows="6"></textarea>
-					</div> <!-- /.col-md-12 -->
-					<div class="col-md-12">
-						<div class="submit-btn">
-							<a href="#" class="largeButton contactBgColor">Send Message</a>
-						</div> <!-- /.submit-btn -->
-					</div> <!-- /.col-md-12 -->
-				</div>
-			</div> <!-- /#contact -->
+        <section id="about" class="page-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-item first-service">
+                            <div class="icon">
+                                <img src="img/first-service-icon.png" alt="">
+                            </div>
+                            <h4>Mobile Ready</h4>
+                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item second-service">
+                            <div class="icon">
+                                <img src="img/second-service-icon.png" alt="">
+                            </div>
+                            <h4>HTML CSS</h4>
+                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item third-service">
+                            <div class="icon">
+                                <img src="img/third-service-icon.png" alt="">
+                            </div>
+                            <h4>Responsive Design</h4>
+                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		</div> <!-- /.container-fluid -->
+        <div class="second-tabs-content what-we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>What we can do else</h4>
+                            <p>Sed tortor lorem, mollis in fringilla sit amet, accumsan eget turpis. Donec ut sollicitudin quam. Sed tempor porta malesuada. Cras aliquam nisi eget efficitur ultrices. Aenean ac ultricies nisl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="wrapper">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <ul class="tabs clearfix" data-tabgroup="second-tab-group">
+                                    <li class="col-md-15 col-sm-12 col-xs-12">
+                                        <a href="#unique" class="active">
+                                            <div class="list-item">
+                                                <div class="icon">
+                                                    <img src="img/first-list-icon.png" alt="">
+                                                </div>
+                                                <h4>Unique Ideas</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-md-15 col-sm-12 col-xs-12">
+                                        <a href="#theme">
+                                            <div class="list-item">
+                                                <div class="icon">
+                                                    <img src="img/second-list-icon.png" alt="">
+                                                </div>
+                                                <h4>Theme Edit</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-md-15 col-sm-12 col-xs-12">
+                                        <a href="#translation">
+                                            <div class="list-item">
+                                                <div class="icon">
+                                                    <img src="img/third-list-icon.png" alt="">
+                                                </div>
+                                                <h4>Translation</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-md-15 col-sm-12 col-xs-12">
+                                        <a href="#event">
+                                            <div class="list-item">
+                                                <div class="icon">
+                                                    <img src="img/fourth-list-icon.png" alt="">
+                                                </div>
+                                                <h4>Event Meeting</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-md-15 col-sm-12 col-xs-12">
+                                        <a href="#photo">
+                                            <div class="list-item">
+                                                <div class="icon">
+                                                    <img src="img/fivth-list-icon.png" alt="">
+                                                </div>
+                                                <h4>HD Photos</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <section id="second-tab-group" class="tabgroup">
+                                <div id="unique">
+                                    <div class="row">
+                                        <div class="tab-content-services">
+                                            <div class="col-md-6">
+                                                <div class="left-text">
+                                                    <h4>Unique Ideas</h4>
+                                                    <p>Power is free Bootstrap CSS template from Templatemo website. Feel free to modify and use this layout. Please tell your friends about our website. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <div class="primary-button">
+                                                        <a href="#contact-us">Download Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <img src="img/right-side-image_1.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="theme">
+                                    <div class="row">
+                                        <div class="tab-content-services">
+                                            <div class="col-md-6">
+                                                <div class="left-text">
+                                                    <h4>Theme Edit</h4>
+                                                    <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
+                                                    <div class="primary-button">
+                                                        <a href="#contact-us">Download Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <img src="img/right-side-image_2.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="translation">
+                                    <div class="row">
+                                        <div class="tab-content-services">
+                                            <div class="col-md-6">
+                                                <div class="left-text">
+                                                    <h4>Translation</h4>
+                                                    <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <div class="primary-button">
+                                                        <a href="#contact-us">Download Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <img src="img/right-side-image_3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="event">
+                                    <div class="row">
+                                        <div class="tab-content-services">
+                                            <div class="col-md-6">
+                                                <div class="left-text">
+                                                    <h4>Event Meeting</h4>
+                                                    <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
+                                                    <div class="primary-button">
+                                                        <a href="#contact-us">Download Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <img src="img/right-side-image_4.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="photo">
+                                    <div class="row">
+                                        <div class="tab-content-services">
+                                            <div class="col-md-6">
+                                                <div class="left-text">
+                                                    <h4>HD Images</h4>
+                                                    <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <div class="primary-button">
+                                                        <a href="#contact-us">Download Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <img src="img/right-side-image_5.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<div class="site-footer">
-			<div class="first-footer">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="social-footer">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-dribbble"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-rss"></a></li>
-								</ul>
-							</div> <!-- /.social-footer -->
-						</div> <!-- /.col-md-12 -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container-fluid -->
-			</div> <!-- /.first-footer -->
-			<div class="bottom-footer">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-6">
-							<p class="copyright">Copyright © 2084 <a href="#">Your Company Name</a>
-                            </p>
-						</div> <!-- /.col-md-6 -->
-						<div class="col-md-6 credits">
-							<p><!-- Design: <a rel="nofollow" href="http://www.templatemo.com/tm-394-sonic" target="_parent">Sonic</a> --></p>
-						</div> <!-- /.col-md-6 -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container-fluid -->
-			</div> <!-- /.bottom-footer -->
-		</div> <!-- /.site-footer -->
 
-	</div> <!-- /#main-content -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>What We Can Do Else</h4>
+                            <p>Aliquam neque neque, commodo in euismod id, lobortis in lacus. Duis interdum sagittis velit, fermentum tincidunt lectus. Nam ornare turpis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="owl-portfolio" class="owl-carousel owl-theme imageGallery1">
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="portfolio-item">
+                                <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	<!-- JavaScripts -->
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery.singlePageNav.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<script src="js/custom.js"></script>
-	<script>
-		$(document).ready(function(){
-			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
-		});
 
-        function initialize() {
-          var mapOptions = {
-            zoom: 13,
-            center: new google.maps.LatLng(40.7809919,-73.9665273)
-          };
+        <section class="tabs-content" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>Our Blog Entries</h4>
+                            <p>Aliquam neque neque, commodo in euismod id, lobortis in lacus. Duis interdum sagittis velit, fermentum tincidunt lectus. Nam ornare turpis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="wrapper">
+                        <div class="col-md-6">
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                                <li><a href="#tab1" class="active">
+                                    shoreditch wolf ethical hashtag
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Admin</li>
+                                        <li><i class="fa fa-calendar"></i>14 November 2017</li>
+                                        <li><i class="fa fa-wechat"></i>12 Comments</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab2">
+                                    kickstarter master cleanse scenester
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Krist</li>
+                                        <li><i class="fa fa-calendar"></i>08 November 2017</li>
+                                        <li><i class="fa fa-wechat"></i>16 Comments</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab3">
+                                    Seitan flexitarian prism shaman
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Nanny</li>
+                                        <li><i class="fa fa-calendar"></i>02 November 2017</li>
+                                        <li><i class="fa fa-wechat"></i>9 Comments</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab4">
+                                    Fashion axe selvage everyday carry
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Krist</li>
+                                        <li><i class="fa fa-calendar"></i>28 October 2017</li>
+                                        <li><i class="fa fa-wechat"></i>11 Comments</li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#tab5">
+                                    chambray truffaut godard flannel
+                                    <ul class="info-post">
+                                        <li><i class="fa fa-user"></i>Admin</li>
+                                        <li><i class="fa fa-calendar"></i>22 October 2017</li>
+                                        <li><i class="fa fa-wechat"></i>24 Comments</li>
+                                    </ul>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="first-tab-group" class="tabgroup">
+                                <div id="tab1">
+                                    <img src="img/blog-post-1.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>shoreditch wolf ethical hashtag</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Admin</li>
+                                            <li><i class="fa fa-calendar"></i>14 November 2017</li>
+                                            <li><i class="fa fa-wechat"></i>12 Comments</li>
+                                        </ul>
+                                        <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
+                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab2">
+                                    <img src="img/blog-post-2.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>kickstarter master cleanse scenester</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Krist</li>
+                                            <li><i class="fa fa-calendar"></i>08 November 2017</li>
+                                            <li><i class="fa fa-wechat"></i>16 Comments</li>
+                                        </ul>
+                                        <p>Artisan messenger bag gochujang tote bag, leggings synth literally unicorn street art ramps slow-carb everyday carry mixtape. Tbh synth hell of kombucha hot chicken dreamcatcher gentrify organic asymmetrical gastropub VHS photo booth raw denim. Vape edison bulb glossier air plant heirloom readymade bitters air plant pug.</p>
+                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab3">
+                                    <img src="img/blog-post-3.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>Seitan flexitarian prism shaman</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Nanny</li>
+                                            <li><i class="fa fa-calendar"></i>02 November 2017</li>
+                                            <li><i class="fa fa-wechat"></i>9 Comments</li>
+                                        </ul>
+                                        <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
+                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab4">
+                                    <img src="img/blog-post-4.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>Fashion axe selvage everyday carry</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Krist</li>
+                                            <li><i class="fa fa-calendar"></i>28 October 2017</li>
+                                            <li><i class="fa fa-wechat"></i>11 Comments</li>
+                                        </ul>
+                                        <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
+                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                    </div>
+                                </div>
+                                <div id="tab5">
+                                    <img src="img/blog-post-5.jpg" alt="">
+                                    <div class="text-content">
+                                        <h4>chambray truffaut godard flannel</h4>
+                                        <ul class="info-post">
+                                            <li><i class="fa fa-user"></i>Admin</li>
+                                            <li><i class="fa fa-calendar"></i>22 October 2017</li>
+                                            <li><i class="fa fa-wechat"></i>24 Comments</li>
+                                        </ul>
+                                        <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
+                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-        }
 
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
-        }
+        <section id="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h4>Contact Us</h4>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form id="contact" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Name..." required>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email..." required>
+                                  </fieldset>
+                                </div>
+                                 <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                  <fieldset>
+                                    <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone..." required>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message..." required></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send your message</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map">
+	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+	-->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="395" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        window.onload = loadScript;
-    </script>
-<!-- templatemo 394 sonic -->
-</body>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                            <p>Copyright &copy; 2017 Your Company <br> 
+                            Power Theme by HTML5 Max</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <ul class="social-icons">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-md-offset-2 col-sm-12">
+                        <div class="back-to-top">
+                            <a href="#top">
+                                <i class="fa fa-angle-up"></i>
+                                back to top
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Map -->
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="js/vendor/jquery.gmap3.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+            
+            // mobile nav toggle
+            $('#nav-toggle').on('click', function (event) {
+                event.preventDefault();
+                $('#main-nav').toggleClass("open");
+            });
+        });
+        </script>
+        
+        <!-- templatemo 406 flex -->
+    </body>
 </html>
